@@ -22,11 +22,13 @@ footer {
     text-align: center;
     color:rgb(255, 255, 255);
     padding-top: 500px;
+    margin: 0;
 }
 
 footer > p {
     background-color: rgb(11, 35, 51);
     padding: 20px;
+    margin: 0;
 }
 
 h2 {
@@ -43,6 +45,7 @@ header {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     align-items: center;
     max-width: 1000px;
@@ -60,11 +63,12 @@ nav a {
 h1 {
     margin: 0;
     padding: 20px;
-    margin-right: 600px;
+    margin-right: auto;
 }
 
 .main-text {
     display: flex;
+    align-items: flex-start;
     gap: 40px;
     padding-top: 100px;
     height: 400px;
